@@ -1,4 +1,4 @@
-# **Commentl'IA vas ou est déjàen train de revolutionner le monde d'aujourd'hui ? 🤖**
+# **Comment l'IA vas ou est déjà en train de révolutionner le monde d'aujourd'hui ? 🤖**
 
 **Plan 🗒:**
 

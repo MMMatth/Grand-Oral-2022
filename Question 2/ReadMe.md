@@ -2,12 +2,15 @@
 
 **Plan 🗒:**
 
-• Pas de plan
+• Exemple d'IA : github copilot 
 
+• Comment l'IA est déjà présent aujourd'hui
+
+• Comment l'IA sera présent dans le futur
 
 **Phrase d'accroche 🚀:**
 
-Pas de phrase d'accroche
+Les IA sont déjà très présent au quotidien : l'algorithme de recommandation netflix, les reseaux sociaux ou bien l'auto focus du téléphone.
 
 **Projet d'avenir 💻:**
 

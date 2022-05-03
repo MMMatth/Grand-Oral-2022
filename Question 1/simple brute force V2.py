@@ -1,9 +1,9 @@
-liste = list("123456789")
+char = list("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$%^&*()_+-=[]{}|;':,./<>?")
 
 def bruteforce(word, length):
     global list, mdp
-    if length <= 4:
-        for letter in liste:
+    if length <= 7:
+        for letter in char:
             if mdp == word + letter:
                 print("Votre mot de passe est " + word + letter)
             else:
@@ -11,5 +11,5 @@ def bruteforce(word, length):
 
 
 
-mdp = "4684"
-bruteforce('', 1)
+mdp = "jaehdui"
+bruteforce('', 7)

@@ -1,38 +1,33 @@
-**Vos mots de passe sont-ils vraiment sécurisés ❓**
+#Vos mots de passe sont-ils vraiment sécurisés ❓
 
-**Plan 🗒 :**
+##Plan 🗒 :
 
 • Complexité d'un mot de passe avec les combinatoires
 
-Je montre le nombre de combinaisons pour plusieurs mots de passe : alphabet, majuscule, chiffre et caractère spéciaux. Utilisation d'un programme de brute force.
-
 • Comment crée un mot de passe sécurisé ?
 
-` 	`J'explique comment sécuriser un mot un mot de passe et je donne des chiffres de personne pirater par ans.
 
-**Phrase d'accroche 🚀 :**
+##Phrase d'accroche 🚀 :
 
 Un mot de passe de 12 chiffres peut être trouvé avec un algorithme de brute force en 2 secondes alors on peut se demander vos mots de passe sont-ils vraiment sécurisés ?
 
-**Projet d'avenir 💻 :**
+##Projet d'avenir 💻 :
 
 • Mon parcours
 
-`	`Collège classique
+- Collège classique
 
-Seconde général 
+- Seconde général 
 
-Première : Mathématiques, NSI, Physique 
+- Première : Mathématiques, NSI, Physique 
 
-Terminal : NSI, Mathématiques
+- Terminal : NSI, Mathématiques
 
 • Ce que je veux faire
 
-`	`Faculté des sciences, licence Mathématique Informatique
+- Faculté des sciences, licence Mathématique Informatique
 
-`	`Développeur
-
-
+- Développeur
 
 
 
@@ -40,7 +35,9 @@ Terminal : NSI, Mathématiques
 
 
 
-**Introduction :**
+
+
+##Introduction :
 
 Aujourd’hui les mots de passe sont partout, sur vos applications de santé, sur vos comptes bancaires, sur vos réseaux sociaux, vos e-mails personnels ou bien encore sur vos sites de commerce en ligne. Et aujourd’hui leur sécurité est assurée essentiellement par vos mots de passe.
 
@@ -48,7 +45,7 @@ C’est pour cela que c’est devenu de nos jour super important de bien les cho
 
 Alors on peut se demander quand un mot de passe est-il sécurisé ?
 
-**Partie 1 :**
+##Partie 1 :
 
 Mais alors quelle est la complexité d’un mot de passe et comment le rendre plus complexe ?
 
@@ -64,7 +61,7 @@ Un mdp de la même taille mais avec des majuscules, des caractère spéciaux et 
 
 90102610
 
-**Partie 2 :**
+##Partie 2 :
 
 Autant de possibilité c’est surprenant ça nous semble énorme mais avec simple algorithme de brute force.
 

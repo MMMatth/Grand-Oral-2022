@@ -49,7 +49,7 @@ Alors on peut se demander quand un mot de passe est-il sécurisé ?
 
 Mais alors quelle est la complexité d’un mot de passe et comment le rendre plus complexe ?
 
-Un mot de passe à 4 chiffres à 10 000 possibilités 10^4 car 10 chiffres : {0,1,2,3,4,5,6,7,8,9}
+- Un mot de passe à 4 chiffres à 10 000 possibilités 10^4 car 10 chiffres : {0,1,2,3,4,5,6,7,8,9}
 
 - Un mdp à 10 lettre minuscule à 26^10 possibilité soit 1,41\*10^14 : {abcdefghijklmnopqrstuvwxyz}
 

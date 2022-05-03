@@ -1,17 +1,17 @@
-#Vos mots de passe sont-ils vraiment sécurisés ❓
+# Vos mots de passe sont-ils vraiment sécurisés ❓
 
-##Plan 🗒 :
+## Plan 🗒 :
 
 • Complexité d'un mot de passe avec les combinatoires
 
 • Comment crée un mot de passe sécurisé ?
 
 
-##Phrase d'accroche 🚀 :
+## Phrase d'accroche 🚀 :
 
 Un mot de passe de 12 chiffres peut être trouvé avec un algorithme de brute force en 2 secondes alors on peut se demander vos mots de passe sont-ils vraiment sécurisés ?
 
-##Projet d'avenir 💻 :
+## Projet d'avenir 💻 :
 
 • Mon parcours
 
@@ -37,7 +37,7 @@ Un mot de passe de 12 chiffres peut être trouvé avec un algorithme de brute fo
 
 
 
-##Introduction :
+## Introduction :
 
 Aujourd’hui les mots de passe sont partout, sur vos applications de santé, sur vos comptes bancaires, sur vos réseaux sociaux, vos e-mails personnels ou bien encore sur vos sites de commerce en ligne. Et aujourd’hui leur sécurité est assurée essentiellement par vos mots de passe.
 
@@ -45,15 +45,15 @@ C’est pour cela que c’est devenu de nos jour super important de bien les cho
 
 Alors on peut se demander quand un mot de passe est-il sécurisé ?
 
-##Partie 1 :
+## Partie 1 :
 
 Mais alors quelle est la complexité d’un mot de passe et comment le rendre plus complexe ?
 
-Un mot de passe à 4 chiffres à 10 000 possibilités 104 car 10 chiffres : {0,1,2,3,4,5,6,7,8,9}
+Un mot de passe à 4 chiffres à 10 000 possibilités 10^4 car 10 chiffres : {0,1,2,3,4,5,6,7,8,9}
 
-- Un mdp à 10 lettre minuscule à 2610 possibilité soit 1,41\*1014 : {abcdefghijklmnopqrstuvwxyz}
+- Un mdp à 10 lettre minuscule à 26^10 possibilité soit 1,41\*10^14 : {abcdefghijklmnopqrstuvwxyz}
 
-- Un mdp à 10 lettre minuscule, majuscule, caractère spéciaux chiffre à 9010 possibilité soit 3,4\*1019
+- Un mdp à 10 lettre minuscule, majuscule, caractère spéciaux chiffre à 90^10 possibilité soit 3,4\*10^19
 
 {abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$%^&\*()\_+-=[]{}|;':,./<>?}
 
@@ -61,7 +61,7 @@ Un mdp de la même taille mais avec des majuscules, des caractère spéciaux et 
 
 90102610
 
-##Partie 2 :
+## Partie 2 :
 
 Autant de possibilité c’est surprenant ça nous semble énorme mais avec simple algorithme de brute force.
 

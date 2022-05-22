@@ -1,4 +1,4 @@
-# **Comment l'intelligence artificiel va ou est déjà en train de révolutionner le monde d'aujourd'hui ?  🤖**
+# **Comment l'IA va ou est déjà en train de révolutionner le metier de developper ? 🤖**
 
 ## Plan 🗒:
 
@@ -13,7 +13,7 @@
 
 **Phrase d'accroche**
 
-Dans plein de metier d'ajourd'hui on se rends compte l'importance de l'informatique et en particulier de l'intelligence artificielle qui va devenir qu'on le veut ou non alors comment l'intelligence artificiel vas ou est déjà en train de révolution le monde d'ajourd'hui ?
+Les developpeur sont toujours face à des problèmes, ils ont toujours besoin d'une solution mais souvent cette solution est dur a trouvé et peut meme provoquer l'arret d'un projet mais aujourd'hui l'intelligence artificiel est de plus en plus present dans le metier de programmeur pour eviter ça. 
 
 **Qu'est ce que c'est une intelligence artificielle ?**
 
@@ -28,9 +28,9 @@ Puis en découle le Deep learning ou apprentissage profond qui est l'une des tec
 
 Donc l'intelligence artificelle est un ensemble de système qui sont capables de comprendre et de réaliser des actions plus ou moin difficile mais pour le quotidien du programmeur nous allons plus parler du Machine Learning .
 
-**Dans quelle domaine est present l'IA ?**
+<!-- **Dans quelle domaine est present l'IA ?**
 
-Ici nous parlons essentiellement de l'IA au sein de la communauté de l'informatique, mais à quel point monsieur tout le monde utilise l’intelligence artificielle au quotidien ? Vous effectuée des recherches sur google ? vous utilisé une intelligence artificielle, vous utilisez des réseaux sociaux ? vous utilisé une intelligence artificielle, Vous utilisé une application de navigation ? vous utilisé une intelligence artificielle, l’intelligence artificielle n’as jamais été aussi présent au quotidien. 
+Ici nous parlons essentiellement de l'IA au sein de la communauté de l'informatique, mais à quel point monsieur tout le monde utilise l’intelligence artificielle au quotidien ? Vous effectuée des recherches sur google ? vous utilisé une intelligence artificielle, vous utilisez des réseaux sociaux ? vous utilisé une intelligence artificielle, Vous utilisé une application de navigation ? vous utilisé une intelligence artificielle, l’intelligence artificielle n’as jamais été aussi présent au quotidien.  -->
 
 
 **Exemple GitHub Copilote**

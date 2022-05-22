@@ -13,7 +13,7 @@
 
 **Phrase d'accroche**
 
-Dans plein de metier d'ajourd'hui on se rends compte l'importance de l'informatique et en particulier de l'intelligence artificielle qui va devenir qu'on le veut ou non alors comment l'intelligence artificiel vas ou est déjà en train de révolution le monde d'ajourd'hui ?
+Dans plein de metier d'ajourd'hui on se rends compte l'importance de l'informatique et en particulier de l'intelligence artificielle qui va devenir qu'on le veut ou non de plus en plus importante alors comment l'intelligence artificiel vas ou est déjà en train de révolution le monde d'ajourd'hui ?
 
 **Qu'est ce que c'est une intelligence artificielle ?**
 

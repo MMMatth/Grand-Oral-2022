@@ -57,11 +57,10 @@ types de mot de passes :
 
 • Code de téléphone à 4 chiffres 10^4 = 10 000
 	
-• Mdp 7 caractères : 7 emplacements => 26 * 2 = 52 possibilités chacun ( min + maj) 
+• Mdp 7 caractères : 7 emplacements => 26 * 2 = 52 possibilités chacun ( min + maj)  52^7=10^12
 
-• 52^7=10^12
-	Mdp 18 caractères (8 lettres (52), 6 chiffres (10), 4 car. spé. (4))  52^8+10^6+10^4=5*10^13
+• Mdp 18 caractères (8 lettres (52), 6 chiffres (10), 4 car. spé. (4))  52^8+10^6+10^4=5*10^13
 
-Dans chaque cas de figure, il y a remise, un caractère peut évidemment être utilisé plusieurs fois par mot de passe. 
+Dans chaque cas de figure, il y a remise, un caractère peut évidemment être utilisé plusieurs fois par le mot de passe. 
 
 On constate alors que plus le nombre de combinaisons possibles est élevé, plus la probabilité qu'un robot ou qu'une personne mal intentionnée trouve la bonne combinaison est faible.

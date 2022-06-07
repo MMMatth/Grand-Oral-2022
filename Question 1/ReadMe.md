@@ -6,65 +6,62 @@
 
 • Comment crée un mot de passe sécurisé ?
 
+**Introduction :**
 
-## Phrase d'accroche 🚀 :
+Que ce soient les Messageries, réseaux sociaux, banques, administrations ou commerces en ligne. La sécurité de tous ces services que nous utilisons tous les jours repose essentiellement sur les mots de passes. Face à leur profusion, la tentation est forte d'en avoir une gestion trop simple. Une telle pratique serait dangereuse, car elle augmenterait considérablement les risques de Cybercriminalité, ransomware, usurpation d'identité, et de diffusion de données privées. Selon cyclonis, Aujourd'hui 83% des utilisateurs utilisent le même mot de passe sur plusieurs sites C'est pourquoi il est nécessaire d'avoir des mots de passes forts : complexes.
 
-Un mot de passe de 12 chiffres peut être trouvé avec un algorithme de brute force en 2 secondes alors on peut se demander vos mots de passe sont-ils vraiment sécurisés ?
+**Partie NSI** 
 
-## Projet d'avenir 💻 :
+Je vais vous montrer comment rendre nos mots de passe plus sûr et plus sécurisé. 
 
-• Mon parcours
+La première étape est de ne pas utiliser un mot de passe similaires pour différents sites ou application. Ce n’est pas facile mais énormément d’outils aujourd’hui nous permet de les retenir pour nous, ce sont des gestionnaires de mots de passes
 
-- Collège classique
+Selon la CNIL et l'ANSSI (Agence nationale de la sécurité des systèmes d'information), Un bon mot de passe doit contenir au moins 12 caractères et 4 types différents : des minuscules, des majuscules, des chiffres et des caractères spéciaux.
 
-- Seconde général 
+De plus, il ne doit pas contenir d'informations susceptibles d'être devinées (nom, nom d'animal, date de naissance...).
+ 
+Aussi, il est conseillé d'utiliser les modules de double authentification, qui demandent une confirmation supplémentaire (par sms, courriel électronique ou code temporaire) afin de permettre une connexion. 
 
-- Première : Mathématiques, NSI, Physique 
+Il est aussi précisé qu'il faudrait renouveler ses mots de passes tous les 90 jours, les gestionnaires de mots de passes savent aussi effectuer ces actions automatiquement. 
 
-- Terminal : NSI, Mathématiques
+On pourrait se dire qu’un pirate ne peut que trouver un mot de passe grâce à notre vie, notre date de naissance, le nom de notre chien mais non.
 
-• Ce que je veux faire
+Aujourd’hui il existe des algorithmes capables de trouver nos mots de passes rapidement par exemple avec un algo de brute force :
 
-- Faculté des sciences, licence Mathématique Informatique
+• Il essaye toutes les solutions possibles 
 
-- Développeur
+• Plus le mot de passe est court et simple, plus rapidement il peut être • craqué avec la méthode de force brute.  
 
+• C’est pour cela qu'on conseille des mots de passes avec différents caractères
 
+Mais en combien de temps un algo de ce type trouve nos mots de passes ?
 
+•  Code de téléphone : Instantanément
 
+• Mdp 7 caractères (maj + min) Instantanément 
 
+• Mdp 10 caractère (maj + min + chiffre) 3 jours
 
+• Mdp 18 caractères (8 lettres (52), 6 chiffres (10), 4 car. spé. (4)) 438 
+billions d’années
 
+Solution : blocage d’IP automatique (attention parade avec VPN) 
+Pour le public : utiliser des modules de double authentification
 
+**Partie Mathématique Dénombrement** 
 
-## Introduction :
+Nous pouvons Démontrer avec le dénombrement que plus il y’a de caractères sur un mot de passe plus il est compliqué de le trouvé et donc juste en ajoutant des caractères spéciaux et quelques chiffres on peut largement améliorer la complexité de vos mots de passes.
 
-Aujourd’hui les mots de passe sont partout, sur vos applications de santé, sur vos comptes bancaires, sur vos réseaux sociaux, vos e-mails personnels ou bien encore sur vos sites de commerce en ligne. Et aujourd’hui leur sécurité est assurée essentiellement par vos mots de passe.
+Nous allons alors comparer le nombre de combinaisons possibles pour différents
+types de mot de passes :
 
-C’est pour cela que c’est devenu de nos jour super important de bien les choisir. D’après CYCLONIS près de 83% de personnes utilisent le même mot de passe sur plusieurs sites pour une question de simplicité mais cela n’est vraiment pas conseillé. 
+• Code de téléphone à 4 chiffres 10^4 = 10 000
+	
+• Mdp 7 caractères : 7 emplacements => 26 * 2 = 52 possibilités chacun ( min + maj) 
 
-Alors on peut se demander quand un mot de passe est-il sécurisé ?
+• 52^7=10^12
+	Mdp 18 caractères (8 lettres (52), 6 chiffres (10), 4 car. spé. (4))  52^8+10^6+10^4=5*10^13
 
-## Partie 1 :
+Dans chaque cas de figure, il y a remise, un caractère peut évidemment être utilisé plusieurs fois par mot de passe. 
 
-Mais alors quelle est la complexité d’un mot de passe et comment le rendre plus complexe ?
-
-- Un mot de passe à 4 chiffres à 10 000 possibilités 10^4 car 10 chiffres : {0,1,2,3,4,5,6,7,8,9}
-
-- Un mdp à 10 lettre minuscule à 26^10 possibilité soit 1,41\*10^14 : {abcdefghijklmnopqrstuvwxyz}
-
-- Un mdp à 10 lettre minuscule, majuscule, caractère spéciaux chiffre à 90^10 possibilité soit 3,4\*10^19
-
-{abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$%^&\*()\_+-=[]{}|;':,./<>?}
-
-Un mdp de la même taille mais avec des majuscules, des caractère spéciaux et le chiffre en plus est donc 246 996 fois plus complexe soit :
-
-90102610
-
-## Partie 2 :
-
-Autant de possibilité c’est surprenant ça nous semble énorme mais avec simple algorithme de brute force.
-
-Brute force : Les attaques par brute force consistent à trouver un mot de passe ou une clé en testant successivement toutes les combinaisons possibles. L'attaque peut se faire par ordre alphabétique comme ici.
-
-Ici vous avez une simple algorithme de brute réaliser par mes soins qui tient donc en 10 lignes et permet de trouver un mot de passe à 7 charactère composée de minuscule en 0,0070 seconde.
+On constate alors que plus le nombre de combinaisons possibles est élevé, plus la probabilité qu'un robot ou qu'une personne mal intentionnée trouve la bonne combinaison est faible.

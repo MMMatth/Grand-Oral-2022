@@ -30,7 +30,7 @@ Aujourd’hui il existe des algorithmes capables de trouver nos mots de passes r
 
 • Il essaye toutes les solutions possibles 
 
-• Plus le mot de passe est court et simple, plus rapidement il peut être • craqué avec la méthode de force brute.  
+• Plus le mot de passe est court et simple, plus rapidement il peut être craqué avec la méthode de force brute.  
 
 • C’est pour cela qu'on conseille des mots de passes avec différents caractères
 
@@ -42,7 +42,7 @@ Mais en combien de temps un algo de ce type trouve nos mots de passes ?
 
 • Mdp 10 caractère (maj + min + chiffre) 3 jours
 
-• Mdp 18 caractères (8 lettres (52), 6 chiffres (10), 4 car. spé. (4)) 438 
+• Mdp 18 caractères (8 lettres (52), 6 chiffres (10), 4 car. spé. (10)) 438 
 billions d’années
 
 Solution : blocage d’IP automatique (attention parade avec VPN) 

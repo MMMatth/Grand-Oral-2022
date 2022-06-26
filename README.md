@@ -1,7 +1,7 @@
 # Grand-Oral
 
 ## 🚀 Qu'est ce que c'est ? ?
-C'est mon oral de fin d'année composé de 2 questions sur les mathématique et l'informatique.
+C'est mon oral de fin d'année composé de 2 questions sur les mathématique et l'informatique passé le 22 juin 2022
 
 
 ## :mailbox: Me contacter :

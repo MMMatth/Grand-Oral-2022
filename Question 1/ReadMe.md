@@ -30,7 +30,7 @@ Aujourd’hui il existe des algorithmes capables de trouver nos mots de passes r
 
 • Il essaye toutes les solutions possibles 
 
-• Plus le mot de passe est court et simple, plus rapidement il peut être • craqué avec la méthode de force brute.  
+• Plus le mot de passe est court et simple, plus rapidement il peut être craqué avec la méthode de force brute.  
 
 • C’est pour cela qu'on conseille des mots de passes avec différents caractères
 
@@ -42,7 +42,7 @@ Mais en combien de temps un algo de ce type trouve nos mots de passes ?
 
 • Mdp 10 caractère (maj + min + chiffre) 3 jours
 
-• Mdp 18 caractères (8 lettres (52), 6 chiffres (10), 4 car. spé. (4)) 438 
+• Mdp 18 caractères (8 lettres (52), 6 chiffres (10), 4 car. spé. (10)) 438 
 billions d’années
 
 Solution : blocage d’IP automatique (attention parade avec VPN) 
@@ -57,6 +57,7 @@ types de mot de passes :
 
 • Code de téléphone à 4 chiffres 10^4 = 10 000
 	
+<<<<<<< HEAD
 • Un digicode d’appartement de 4 chiffre suivi d’une lettre (A ou B)  : 10^4*2^1=20 000
 
 • Mdp 18 caractères (lettres (52), chiffres (10), 4 car. spé. (10)) = (52+10+10)^18
@@ -64,6 +65,13 @@ types de mot de passes :
 Dans chaque cas de figure, il y a remise, un caractère peut évidemment être utilisé plusieurs fois par le mot de passe.
 
 K-uplet car rep + remise
+=======
+• Mdp 7 caractères : 7 emplacements => 26 * 2 = 52 possibilités chacun ( min + maj)  52^7=10^12
+
+• Mdp 18 caractères (8 lettres (52), 6 chiffres (10), 4 car. spé. (4))  52^8+10^6+10^4=5*10^13
+
+Dans chaque cas de figure, il y a remise, un caractère peut évidemment être utilisé plusieurs fois par le mot de passe. 
+>>>>>>> 56671a1bddc7bf1ded8df6993bc7982c0245f5a4
 
 On constate alors que plus le nombre de combinaisons possibles est élevé, plus la probabilité qu'un robot ou qu'une personne mal intentionnée trouve la bonne combinaison est faible.
 

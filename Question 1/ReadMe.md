@@ -57,7 +57,6 @@ types de mot de passes :
 
 • Code de téléphone à 4 chiffres 10^4 = 10 000
 	
-<<<<<<< HEAD
 • Un digicode d’appartement de 4 chiffre suivi d’une lettre (A ou B)  : 10^4*2^1=20 000
 
 • Mdp 18 caractères (lettres (52), chiffres (10), 4 car. spé. (10)) = (52+10+10)^18
@@ -65,13 +64,8 @@ types de mot de passes :
 Dans chaque cas de figure, il y a remise, un caractère peut évidemment être utilisé plusieurs fois par le mot de passe.
 
 K-uplet car rep + remise
-=======
-• Mdp 7 caractères : 7 emplacements => 26 * 2 = 52 possibilités chacun ( min + maj)  52^7=10^12
-
-• Mdp 18 caractères (8 lettres (52), 6 chiffres (10), 4 car. spé. (4))  52^8+10^6+10^4=5*10^13
 
 Dans chaque cas de figure, il y a remise, un caractère peut évidemment être utilisé plusieurs fois par le mot de passe. 
->>>>>>> 56671a1bddc7bf1ded8df6993bc7982c0245f5a4
 
 On constate alors que plus le nombre de combinaisons possibles est élevé, plus la probabilité qu'un robot ou qu'une personne mal intentionnée trouve la bonne combinaison est faible.
 
